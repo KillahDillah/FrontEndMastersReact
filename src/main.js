@@ -13,8 +13,8 @@ const App = () => {
             {id: 'check-it'}, // add `id:'check-it'` to parent element
             [
                 React.createElement('h1', {}, "Adopt Me!"), // child element
-                React.createElement(Pet),
-                React.createElement(Pet),
+                React.createElement(Pet, {name: "ButtSlut", animal: "cat", breed: "tabby"}),
+                React.createElement(Pet, {name: "The Cat", animal: "kitty", breed: "cat"}),
             ]
         );
 };
