@@ -1,9 +1,9 @@
 
 const Pet =(props)=> {
     return React.createElement('div', {}, [
-        React.createElement('h1', {}, 'FatBitch'),
-        React.createElement('h2', {}, 'Skitty'),
-        React.createElement('h2', {}, 'Wild Thing')
+        React.createElement('h1', {}, props.name),
+        React.createElement('h2', {}, props.animal),
+        React.createElement('h2', {}, props.breed)
     ]);
 };
 
