@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/KillahDillah/FrontEndMastersReact/issues"
   },
-  "homepage": "https://github.com/KillahDillah/FrontEndMastersReact#readme"
+  "homepage": "https://github.com/KillahDillah/FrontEndMastersReact#readme",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
 }

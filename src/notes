@@ -1,1 +1,3 @@
-npm init -y : creates new project / creates package.json
+npm init -y : creates new project / creates package.json (where dependencies live)
+
+npm install -D prettier : -D is developer dependency, prettier is for local environment
