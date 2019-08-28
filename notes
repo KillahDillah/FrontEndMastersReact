@@ -5,3 +5,7 @@ npm install -D prettier : -D is developer dependency, prettier is for local envi
 npm install -D eslint eslint-config-prettier - eslint config it to make rules as to how code should look and where it catches
 
 added to .gitignore
+
+Parcel vs webpack - using Parcel (packager) because it's "hands-off", no need for config. Webpack is more difficult to setup but can do more "crazy" things, with power comes complexity
+
+
