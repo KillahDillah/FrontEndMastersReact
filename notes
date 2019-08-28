@@ -1,3 +1,5 @@
 npm init -y : creates new project / creates package.json (where dependencies live)
 
 npm install -D prettier : -D is developer dependency, prettier is for local environment
+
+npm install -D eslint eslint-config-prettier - eslint config it to make rules as to how code should look and where it catches

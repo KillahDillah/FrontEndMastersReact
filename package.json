@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/KillahDillah/FrontEndMastersReact#readme",
   "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
     "prettier": "^1.18.2"
   }
 }
