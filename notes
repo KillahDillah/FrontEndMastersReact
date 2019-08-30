@@ -18,3 +18,5 @@ npm install -D babel-eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-p
   eslint-plugin-import : gives new rules around importing and exporting
   eslint-plugin-jsx-a11y : accessibility 
   eslint-plugin-react : help with additional React rules
+
+inside .eslintrc.json : prettier and prettier/React MUST be at the bottom because the two rules 'turn things off'
