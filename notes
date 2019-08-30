@@ -10,4 +10,6 @@ Parcel vs webpack - using Parcel (packager) because it's "hands-off", no need fo
 
 "dev": "parcel src/index.html" inside package.json serves to localhost
 
+Because we are using Parcel - we can use JSX
+JSX translates HTML into Javascript that React can use
 
