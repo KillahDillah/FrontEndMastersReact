@@ -5,7 +5,7 @@ export default function Pet({ name, animal, breed }) {
   //   React.createElement("h2", {}, animal),
   //   React.createElement("h2", {}, breed)
   // ]);
-  // above displays the same as below
+  // above displays the same as below. Below gets transpiled to above using Babel
 
   return (
     <div>
