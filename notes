@@ -13,3 +13,8 @@ Parcel vs webpack - using Parcel (packager) because it's "hands-off", no need fo
 Because we are using Parcel - we can use JSX
 JSX translates HTML into Javascript that React can use
 
+npm install -D babel-eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+  babel-eslint : allows eslint to be augmented by babel (transpiler (allows html to be read by react))
+  eslint-plugin-import : gives new rules around importing and exporting
+  eslint-plugin-jsx-a11y : accessibility 
+  eslint-plugin-react : help with additional React rules
