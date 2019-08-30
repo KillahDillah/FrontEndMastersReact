@@ -24,3 +24,5 @@ inside .eslintrc.json : prettier and prettier/React MUST be at the bottom becaus
 rules allows on and off of rules from plugins
     "react/prop-types": 0 (turns off props. Prop types are not useful when using typescript)
     "no-console":1 (0- turns off rule, 1- turn rule on as a warning, 2- turn rule on as error)
+
+npm run dev - uses Parcel's server
