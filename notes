@@ -20,3 +20,7 @@ npm install -D babel-eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-p
   eslint-plugin-react : help with additional React rules
 
 inside .eslintrc.json : prettier and prettier/React MUST be at the bottom because the two rules 'turn things off'
+
+rules allows on and off of rules from plugins
+    "react/prop-types": 0 (turns off props. Prop types are not useful when using typescript)
+    "no-console":1 (0- turns off rule, 1- turn rule on as a warning, 2- turn rule on as error)
