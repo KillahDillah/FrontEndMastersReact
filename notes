@@ -26,3 +26,5 @@ rules allows on and off of rules from plugins
     "no-console":1 (0- turns off rule, 1- turn rule on as a warning, 2- turn rule on as error)
 
 npm run dev - uses Parcel's server
+
+all HOOKS start with 'use' : useState, useEffect, useCallback...
