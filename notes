@@ -28,3 +28,4 @@ rules allows on and off of rules from plugins
 npm run dev - uses Parcel's server
 
 all HOOKS start with 'use' : useState, useEffect, useCallback...
+HOOKS must NEVER be in 'if' statements
